@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+  </head>
+  <body>  <div class="banner">
+      <div class="navbar">
+        <header>
+          <h1>My Website</h1>
+        </header>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="text">
+        <section>
+          <h2>My Gallery</h2>
+        </section>
+      </div>
+      <div class="full" id="fullbox">
+        <img src="gallery/1.jpg" id="fullimg">
+        <span onclick="closefullimg()">X</span>
+      </div>
+      <div class="photos">
+        <img src="gallery/1.jpg" alt="image 1" onclick="openfullimg(this.src)">
+        <img src="gallery/2.jpg" alt="image 2" onclick="openfullimg(this.src)">
+        <img src="gallery/3.jpg" alt="image 3" onclick="openfullimg(this.src)">
+        <img src="gallery/4.jpg" alt="image 4" onclick="openfullimg(this.src)">
+        <img src="gallery/5.jpg" alt="image 5" onclick="openfullimg(this.src)">
+        <img src="gallery/6.jpg" alt="image 6" onclick="openfullimg(this.src)">
+      </div>
+    </div>
+
+    <script src="gallery.js"></script>
+  </body>  
+  </html>
